@@ -1,0 +1,85 @@
+body{
+    background-color: #f0f2f5;
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+.color_facebook{
+    color: #4267B2;
+}
+.back_facebook{
+    background-color: #4267B2;
+}
+.font_fw{
+    font-weight: 500;
+}
+.font{
+    font-size: 70px;
+    color: #4267B2;
+}
+.font_p{
+    line-height: 1.4;
+    color: #6e6d6d;
+}
+.lin{
+    position: relative;
+    height: 1px;
+}
+.lin::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.186);
+}
+.color{
+    background-color: rgb(38, 203, 38);
+}
+.padding{
+    padding: 12px;
+}
+.margin{
+    margin: 120px 0px 0px 200px;
+}
+.shadow_box{
+    box-shadow: 0 2px 20px 2px rgb(150 150 150);
+}
+.gap{
+    gap: 10px;
+}
+.gape{
+    gap: 25px;
+}
+.color_the_text{
+    color: #4267B2;
+    font-size: 16px;
+}
+.no_adds{
+    background: transparent !important;
+    border: 0px solid white !important;
+}
+.fontss::placeholder{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.711);
+}
+@media screen and (max-width: 992px) {
+    .font{
+        font-size: 120px;
+    }
+    .font_p{
+        font-size: 40px !important;
+    }
+    .margin{
+        margin: 0;
+    }
+    .marg{
+        margin-top: 100px;
+    }
+    .margins{
+        margin-bottom: 100px;
+    }
+    .fonts{
+        font-size: 20px;
+    }
+}
